@@ -2,10 +2,13 @@ class GymMembership:
     def __init__(self,member_name,monthly_fee, remaining_month):
         self._member_name=member_name
         self.monthly_fee=monthly_fee
-        self.remaining_months=remaining_month 
+        self.remaining_months=remaining_month  
+
+           #Bobur 50.0 12
+
     @property
     def member_name(self):
-        return self._member_name
+        return self._member_name   #Bobur
     
     @property
     def monthly_fee(self):
